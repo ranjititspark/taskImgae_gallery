@@ -1,0 +1,32 @@
+.search-bar {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 300px;
+    border: 0px;
+    outline: none;
+  }
+  
+  .image-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .image-list img {
+    margin: 10px;
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+  }
+
+  .menu-item{
+    margin-left: 20px;
+  }
